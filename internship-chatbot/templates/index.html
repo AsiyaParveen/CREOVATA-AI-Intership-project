@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Internship Chatbot</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <header>
+      <h2>Internship Help Desk Bot</h2>
+    </header>
+
+    <div class="chat-box" id="chat-box">
+  {% for role, message in chat_history %}
+    <div class="chat {{ role }}">{{ message }}</div>
+  {% endfor %}
+</div>
+
+
+    <form method="POST" class="chat-form">
+      <input type="text" name="message" placeholder="Type your message..." autocomplete="off" required>
+      <button type="submit">➤</button>
+    </form>
+  </div>
+
+  <script>
+    window.onload = function () {
+      const chatBox = document.getElementById("chat-box");
+      if (chatBox) {
+        chatBox.scrollTop = chatBox.scrollHeight;
+      }
+    };
+  </script>
+</body>
+</html>

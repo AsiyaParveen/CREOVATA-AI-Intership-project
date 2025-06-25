@@ -1,0 +1,110 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "salam", "assalamualaikum"],
+      "responses": ["Salam! Internship ke mutaliq kya maloom karna hai?"]
+    },
+    {
+      "tag": "deadline",
+      "patterns": ["deadline kya hai", "last date", "kab submit karna hai"],
+      "responses": ["Deadline 15 July 2025 hai."]
+    },
+    {
+      "tag": "project",
+      "patterns": ["project kya hai", "konsa project mila hai", "project details"],
+      "responses": ["Aapko AI Resume Analyzer project diya gaya hai."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["kis se contact karna hai", "contact info", "support email"],
+      "responses": ["Aap support@creovata.com par rabta kar sakte hain."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["shukriya", "thank you", "thanks"],
+      "responses": ["Aapka shukriya! Agar aur madad chahiye toh batayein."]
+    },
+  
+    {
+    "tag": "internship_duration",
+    "patterns": ["internship kitni der ki hai", "duration kya hai", "kitne dino ki internship hai"],
+    "responses": ["Internship ki duration 6 haftay ki hai."]
+    },
+    {
+  "tag": "certificate",
+  "patterns": ["certificate milega?", "internship certificate kab milega?", "kya certificate milega"],
+  "responses": ["Haan, internship complete karne par aapko digital certificate diya jayega."]
+},
+{
+  "tag": "stipend",
+  "patterns": ["stipend milega?", "kya ye paid internship hai?", "salary ya paisay milenge?"],
+  "responses": ["Ye ek unpaid internship hai lekin valuable experience aur certificate milega."]
+},
+{
+  "tag": "task_submission",
+  "patterns": ["task kahan submit karna hai?", "assignment kaise dena hai?", "project submit kaise karna hai?"],
+  "responses": ["Task ya assignment Google class room ya email ke zariye submit karna hoga. Details email mein milengi."]
+},
+{
+  "tag": "attendance",
+  "patterns": ["attendance kaise record hoti hai?", "attendance zaroori hai?", "daily check-in kaise hota hai?"],
+  "responses": ["weekly attendance  hojati ha live class ma"]
+},
+{
+  "tag": "supervisor",
+  "patterns": ["mera supervisor kaun hai?", "mentor kaun hai?", "guide kaun karega?"],
+  "responses": ["Aapke supervisor ka naam aapki email mein diya gaya hai. Agar nahi mila toh contact karein."]
+},
+{
+  "tag": "instructor",
+  "patterns": ["instructor kaun hai?", "teacher ka naam kya hai?", "kis se seekhna hai?", "mentor kaun hai?"],
+  "responses": ["Aapke instructor ka naam Abdullah Khalid Khan hai."]
+} ,
+{
+  "tag": "project_list",
+  "patterns": ["kon kon se project hain?", "project list dikhao", "available projects kya hain?", "kya kya project mil sakta hai?"],
+  "responses": [
+    "Available projects hain:\n1. AI Resume Analyzer\n2. Fake News Detection\n3. Electricity Bill Estimator\n4. Financial Anomaly Detector"
+  ]
+},
+{
+  "tag": "my_project",
+  "patterns": ["mera project kya hai?", "mujhe konsa project mila hai?", "assigned project kaunsa hai?", "mera assignment kya hai?"],
+  "responses": ["Aap k project ka nam ha" ,"Chatbot system"]
+},
+{
+  "tag": "project_resume_analyzer",
+  "patterns": ["resume analyzer kya hai?", "AI Resume Analyzer kaam kya karta hai?", "resume analyzer project details"],
+  "responses": [
+    "AI Resume Analyzer ek tool hai jo resume ko AI ki madad se analyze karta hai. Yeh skills, experience aur formatting ko evaluate karta hai aur improvements suggest karta hai."
+  ]
+},
+{
+  "tag": "project_fake_news",
+  "patterns": ["fake news detection project kya hai?", "ye project kya karta hai?", "news fake hai ya real kaise pata chalta hai?"],
+  "responses": [
+    "Fake News Detection ek AI project hai jo news articles aur social media content ka analysis karke batata hai ke woh real hai ya fake."
+  ]
+},
+{
+  "tag": "project_bill_estimator",
+  "patterns": ["electricity bill estimator project kya hai?", "bill estimator kaise kaam karta hai?", "ye AI bill kaise nikalta hai?"],
+  "responses": [
+    "Electricity Bill Estimator user ke input (appliances, hours, days) ki buniyad par AI model se units aur bill ka estimation karta hai."
+  ]
+},
+{
+  "tag": "project_financial_anomaly",
+  "patterns": ["financial anomaly detector kya hai?", "ye project kya karta hai?", "stock ya finance ka analysis kaise hota hai?"],
+  "responses": [
+    "Financial Anomaly Detector ek AI system hai jo stock ya financial data mein unusual patterns ya fraud detect karta hai using unsupervised learning aur time-series forecasting."
+  ]
+},
+{
+  "tag": "project_info",
+  "patterns": ["project [project_name] kya hai?", "project [project_name] details", "mujhe [project_name] project chahiye"],
+  "responses": ["Kripya specific project ka naam likhein, jaise 'Resume Analyzer', taake main uski details de sakun."]
+}
+ ]
+}
